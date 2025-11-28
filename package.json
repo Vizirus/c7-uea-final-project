@@ -1,0 +1,19 @@
+{
+  "name": "un-sustainability-information",
+  "version": "1.0.0",
+  "description": "This is a project for Web Development subject. This website contains information about three key sustainability ideas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
