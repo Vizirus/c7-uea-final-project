@@ -9,6 +9,12 @@ app.get("/", (req, res) => {
         console.log(err);
     });
 });
+app.get("/goals", (req, res) => {
+    res.sendFile('html/goals.html', (err)=>{
+    if (err)
+        console.log(err);
+    });
+});
 app.listen(port, () => {
     console.log(`myapp is listening on port ${port}!`);
 });
