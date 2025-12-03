@@ -1,3 +1,26 @@
+/* ============================================
+   HOW TO USE LOCAL FONTS WITH @font-face
+   ============================================
+   
+   To use custom fonts from your local fonts folder, add:
+   
+   @font-face {
+       font-family: 'YourFontName';
+       src: url('../materials/fonts/YourFont.woff2') format('woff2'),
+            url('../materials/fonts/YourFont.woff') format('woff'),
+            url('../materials/fonts/YourFont.ttf') format('truetype');
+       font-weight: normal;
+       font-style: normal;
+   }
+   
+   Then use it in your styles:
+   body {
+       font-family: 'YourFontName', sans-serif;
+   }
+   
+   See README.md for more detailed instructions.
+   ============================================ */
+
 body{
      min-height: 100dvh;
     display: grid;
