@@ -1,7 +1,10 @@
+const path = require('node:path');
+
 const express = require("express");
 const app = express();
 const port = 3000;
 
+app.use(express.urlencoded({ extended: true }));
 app.use(express.static("page_code"));
 app.get("/", (req, res) => {
     res.sendFile('index.html', (err)=>{
@@ -10,7 +13,7 @@ app.get("/", (req, res) => {
     });
 });
 app.get("/goals", (req, res) => {
-    res.sendFile('html/goals.html', (err)=>{
+    res.sendFile(path.resolve('page_code/html/goals.html'), (err)=>{
     if (err)
         console.log(err);
     });
