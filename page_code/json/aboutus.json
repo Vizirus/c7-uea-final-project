@@ -1,0 +1,38 @@
+[
+    {
+        "header": "Artem",
+        "image": "../materials/aboutus/aboutus_people.png",
+        "paragraph": "Lorem Ipsum"
+    },
+    {
+        "header": "Intisar",
+        "image": "../materials/aboutus/aboutus_people.png",
+        "paragraph": "Lorem Ipsum"
+    },
+    {
+        "header": "Edward",
+        "image": "../materials/aboutus/aboutus_people.png",
+        "paragraph": "Lorem Ipsum"
+    },
+    {
+        "header": "Lazar",
+        "image": "../materials/aboutus/aboutus_people.png",
+        "paragraph": "Lorem Ipsum"
+    },
+    {
+        "footer": {
+            "nc": {
+                "text": "Norwich council",
+                "link": "https://www.norwich.gov.uk/"
+            },
+            "un": {
+                "text": "United Nation goals",
+                "link": "https://sdgs.un.org/goals"
+            },
+            "em": {
+                "text": "Send us an email!",
+                "link": "mailto:example@example.com"
+            }
+        }
+    }
+]
