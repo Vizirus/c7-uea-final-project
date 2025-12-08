@@ -1,0 +1,40 @@
+[
+    {
+        "nav": 
+        {
+            "header_icon": "materials/goals/header_icon.png",
+            "ul":
+            {
+                "hm": "Home",
+                "gl": "Goals",
+                "jt": "Join our Team!",
+                "at": "About our team"
+            }
+        }
+    
+    },
+    {
+        "hero":
+        {
+            "title": "Welcome to UN Sustainability Goals",
+            "text": "Learn about the United Nations Sustainable Development Goals and how we can work together to create a better future for all. Our focus is on Climate Action, Quality Education, and Gender Equality."
+        }
+    },
+    {
+        "footer":
+        {
+            "nc": {
+                "text": "Norwich council",
+                "link": "https://www.norwich.gov.uk/"
+            },
+            "un": {
+                "text": "United Nation goals",
+                "link": "https://sdgs.un.org/goals"
+            },
+            "em": {
+                "text": "Send us an email!",
+                "link": "mailto:example@example.com"
+            }
+        }
+    }
+]
