@@ -34,5 +34,8 @@ document.addEventListener('DOMContentLoaded', () => {
         em.innerText = data[2].footer.em.text;
         em.href = data[2].footer.em.link;
         em.target = "_blank";
+    })
+    .catch(error => {
+        console.error('Error loading page content:', error);
     });
 });
