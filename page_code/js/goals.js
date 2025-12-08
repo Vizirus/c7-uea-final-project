@@ -15,6 +15,15 @@ function createArticle(sectionName, data){
     element.appendChild(para);
 }
 
+// Hamburger menu
+const hamburger = document.getElementById("hamburger");
+const navMenu = document.getElementById("nav-menu");
+
+hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("open");
+});
+
 document.addEventListener('DOMContentLoaded', () =>{
     fetch('../json/goals.json')
     .then(response => response.json())
