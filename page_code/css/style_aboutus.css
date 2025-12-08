@@ -92,12 +92,6 @@ footer h5 {
 }
 
 /*Articles*/
-section {
-    display: flex;
-    justify-content: space-around;
-}
-
-/*Article content*/
 .lb_article {
     display: block;
     float: center;
@@ -134,28 +128,6 @@ section {
     border: 1px solid #20373b;
 }
 
-.b_article h3 {
-    color: white;
-}
-
-.b_article p {
-    color: white;
-    display: inline;
-}
-
-.y_article img {
-    float: right;
-    margin: auto 20px auto auto;
-}
-
-.figureworkie p {
-    display: inline;
-}
-
-.y_article h3 {
-    text-align: right;
-}
-
 .ln_article {
     display: block;
     float: center;
@@ -167,34 +139,83 @@ section {
     box-sizing: border-box;
     border: 1px solid #20373b;
 }
+/*Article content*/
+.lb_article h3 {
+    color: black;
+    text-align: left;
+    margin: auto 45px;
+}
+
+.lb_article img {
+    float: left;
+    height: 150px;
+    width: 150px;
+}
+
+.lb_article p {
+    color: black;
+    display: block;
+    text-align: left;
+    margin: auto 40px auto auto;
+}
+
+.y_article h3 {
+    color: black;
+    text-align: right;
+    margin: auto 45px auto auto;
+}
+
+.y_article img {
+    float: right;
+    height: 150px;
+    width: 150px;
+}
+
+.y_article p {
+    color: black;
+    display: block;
+    text-align: left;
+    margin: auto 40px auto auto;
+}
+
+.b_article h3 {
+    color: white;
+    text-align: left;
+    margin: auto auto auto 45px;
+}
+
+.b_article img {
+    float: left;
+    height: 150px;
+    width: 150px;
+}
+
+.b_article p {
+    color: white;
+    display: block;
+    text-align: left;
+    margin: auto 40px auto auto;
+}
 
 .ln_article h3 {
     color: white;
-}
-
-.ln_article img {
-    float: right;
-}
-
-.ln_article img {
-    float: right;
-    margin: auto 20px auto auto;
-}
-
-.ln_article h3 {
     text-align: right;
+    margin: auto 45px auto auto;
 }
 
+.ln_article img {
+    float: right;
+    height: 150px;
+    width: 150px;
+}
 
-img {
-    height: 100px;
-    width: 100px;
-    display: inline;
+.ln_article p {
+    color: white;
+    display: block;
+    text-align: left;
+    margin: auto 40px auto auto;
 }
-.y_article p {
-    display: inline;
-    margin-top: 5%;
-}
+
 
 @media only screen and (max-width: 1400px) {
     section {
@@ -206,7 +227,23 @@ img {
     article {
         margin-top: 40px;
     }
-
+    figure {
+        width: 92%;
+        padding: auto;
+        margin: 10px;
+    }
+    img {
+        display: none;
+}
+    h3 {
+        text-align: top;
+    }
+    p {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        max-width: 10;
+    }
     footer {
         display: flex;
         margin-top: 40px;

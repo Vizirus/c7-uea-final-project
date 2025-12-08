@@ -1,23 +1,37 @@
 [
     {
+            "nav": 
+        {
+            "header_icon": "../materials/goals/header_icon.png",
+            "ul":
+            {
+                "hm": "Home",
+                "gl": "Goals",
+                "jt": "Join our Team!",
+                "at": "About our team"
+            }
+        }
+    
+    },
+    {
         "header": "Artem",
         "image": "../materials/aboutus/aboutus_people.png",
-        "paragraph": "Lorem Ipsum"
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi scelerisque tellus at eros sollicitudin malesuada. Sed eget maximus dolor, vel interdum augue. In congue facilisis turpis ut tincidunt. Vestibulum quis scelerisque augue."
     },
     {
         "header": "Intisar",
         "image": "../materials/aboutus/aboutus_people.png",
-        "paragraph": "Lorem Ipsum"
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi scelerisque tellus at eros sollicitudin malesuada. Sed eget maximus dolor, vel interdum augue. In congue facilisis turpis ut tincidunt. Vestibulum quis scelerisque augue."
     },
     {
         "header": "Edward",
         "image": "../materials/aboutus/aboutus_people.png",
-        "paragraph": "Lorem Ipsum"
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi scelerisque tellus at eros sollicitudin malesuada. Sed eget maximus dolor, vel interdum augue. In congue facilisis turpis ut tincidunt. Vestibulum quis scelerisque augue."
     },
     {
         "header": "Lazar",
         "image": "../materials/aboutus/aboutus_people.png",
-        "paragraph": "Lorem Ipsum"
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi scelerisque tellus at eros sollicitudin malesuada. Sed eget maximus dolor, vel interdum augue. In congue facilisis turpis ut tincidunt. Vestibulum quis scelerisque augue."
     },
     {
         "footer": {
