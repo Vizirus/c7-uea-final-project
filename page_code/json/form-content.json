@@ -1,0 +1,47 @@
+
+{
+        "nav": 
+        {
+            "header_icon": "../materials/goals/header_icon.png",
+            "ul":
+            {
+                "hm": "Home",
+                "gl": "Goals",
+                "jt": "Join our Team!",
+                "at": "About our team"
+            }
+        },
+    
+
+    "pageTitle": "Join Our Team ",
+    "mainTitle": "Join our great team!",
+    "subtitle": "Lets provide sustainable development together!",
+    "formTitle": "Sign up Form",
+    "formLabels": {
+        "firstName": "First Name *:",
+        "lastName": "Last Name *:",
+        "email": "Email *:",
+        "comments": "Comments:",
+        "submit": "Submit",
+        "requiredNote": "* Required field"
+    },
+
+
+
+        "footer":
+        {
+            "nc": {
+                "text": "Norwich council",
+                "link": "https://www.norwich.gov.uk/"
+            },
+            "un": {
+                "text": "United Nation goals",
+                "link": "https://sdgs.un.org/goals"
+            },
+            "em": {
+                "text": "Send us an email!",
+                "link": "mailto:example@example.com"
+            }
+        }
+}
+
