@@ -218,6 +218,51 @@ footer h5 {
 
 
 @media only screen and (max-width: 1400px) {
+    .hamburger {
+    display: flex;
+    margin-left: auto;
+    margin-right:20px;
+    }
+    nav {
+        margin-right: 0;
+    }
+
+    .nav-menu {
+        position: absolute;
+        top: 100px;
+        right: 0;
+        width: 100%;
+        background-color: #c3e7f1;
+        border-bottom: 1px solid #20373b;
+        overflow: hidden;
+        max-height: 0;
+        display: block;
+        transition: max-height 0.35s ease;
+        z-index: 999;
+    }
+
+    .nav-menu.open {
+        max-height: 320px; 
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .menu li {
+        display: block;
+        margin: 12px 0;
+    }
+
+    .menu li a {
+        font-size: 22px;
+        padding: 10px;
+        display: block;
+    }
     section {
         display: flex;
         flex-direction: column;
