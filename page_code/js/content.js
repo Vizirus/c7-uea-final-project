@@ -16,7 +16,7 @@ hamburger.addEventListener("click", () => {
 
 async function loadContent() {
     try {
-        const response = await fetch('form-content.json');
+        const response = await fetch('../json/form-content.json');
         const content = await response.json();
 
         if (content.nav) {

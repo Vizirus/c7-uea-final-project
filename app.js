@@ -6,7 +6,7 @@ const app = express();
 const PORT = 3000;
 
 app.use(express.json());
-app.use(express.static('.'));
+app.use(express.static('page_code'));
 
 const transporter = nodemailer.createTransport({
     service: 'yahoo',
@@ -28,6 +28,12 @@ async function initDataFile() {
         await fs.writeFile(DATA_FILE, JSON.stringify([]));
     }
 }
+app.get("/form", (req, res) => {
+    res.sendFile(path.resolve('page_code/html/form.html'), (err)=>{
+    if (err)
+        console.log(err);
+    });
+});
 
 app.post('/submit-form', async (req, res) => {
     console.log('form submitted');
