@@ -12,7 +12,7 @@ const transporter = nodemailer.createTransport({
     service: 'yahoo',
     auth: {
         user: process.env.EMAIL_USER || 'intisaradekanmbi@yahoo.com',
-        pass: process.env.EMAIL_PASS || 'Homework500@'
+        pass: process.env.EMAIL_PASS || 'Homework8@'
     }
 });
 
