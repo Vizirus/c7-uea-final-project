@@ -31,6 +31,12 @@
             "climate": "Why we act now before it`s irreversible?",
             "education": "Good education - key to success. And everyone should have access to it.",
             "equality": "Fairness, Respect, Equality for all"
+        },
+        "links":
+        {
+            "climate": "https://sdgs.un.org/goals/goal13",
+            "education": "https://sdgs.un.org/goals/goal4",
+            "equality": "https://sdgs.un.org/goals/goal5"
         }
     },
     {

@@ -96,7 +96,7 @@ nav{
     color: #c3e7f1;
     border-radius: 8px;
 }
-a{
+.menu li a, footer h5 a{
     text-decoration: none;
     color: #20373b;
     padding: .2em 1em;

@@ -209,7 +209,7 @@ footer h5{
     border-bottom: 3px solid #ffc64e;
 }
 
-#hamburger{
+#Hamburger{
     display: none;
 }
 
@@ -305,7 +305,7 @@ button[type='submit']{
     }
 }
 @media only screen and (max-width: 1050px){
-    .hamburger {
+    #Hamburger {
         display: flex;
         margin-left: auto;
         margin-right:20px;

@@ -47,6 +47,12 @@ app.get("/aboutus", (req, res) => {
         console.log(err);
     });
 });
+app.get("/goal-gender-equality", (req, res) => {
+    res.sendFile(path.resolve('page_code/html/goal-gender-equality.html'), (err)=>{
+    if (err)
+        console.log(err);
+    });
+});
 app.post('/submit-form', async (req, res) => {
     console.log('form submitted');
     try {

@@ -8,7 +8,11 @@ function createArticle(sectionName, data){
     img.src = data[1].images[sectionName];
     img.alt = sectionName;
     img.className = "article_icon";
-    element.appendChild(img);
+    let a = document.createElement('a');
+    a.href = data[1].links[sectionName];
+    a.target = "_blank";
+    a.appendChild(img);
+    element.appendChild(a);
     let para = document.createElement('p');
     para.innerText = data[1].articles[sectionName];
     para.className = "article_p";

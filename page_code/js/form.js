@@ -1,10 +1,14 @@
 
 
-
 document.addEventListener('DOMContentLoaded', () =>{
     const form = document.getElementById('signupForm');
     const message = document.getElementById('message');
-
+    const hamburger = document.getElementById("hamburger");
+    const navMenu = document.getElementById("nav-menu");
+    hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("open");
+    });
     form.addEventListener('submit', async function(e) {
         e.preventDefault();
 
@@ -41,6 +45,7 @@ document.addEventListener('DOMContentLoaded', () =>{
     }
     catch(error) {
     showMessage("Error, please try again", 'error');
+    
 }
 
 });
