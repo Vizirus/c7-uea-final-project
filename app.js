@@ -41,7 +41,12 @@ app.get("/form", (req, res) => {
         console.log(err);
     });
 });
-
+app.get("/aboutus", (req, res) => {
+    res.sendFile(path.resolve('page_code/html/aboutus.html'), (err)=>{
+    if (err)
+        console.log(err);
+    });
+});
 app.post('/submit-form', async (req, res) => {
     console.log('form submitted');
     try {
