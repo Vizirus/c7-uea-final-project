@@ -3,7 +3,14 @@ document.addEventListener('DOMContentLoaded', () =>{
     .then(response => response.json())
     .then(data => 
     {
-        // Menu items
+        // Menu Items
+        const hamburger = document.getElementById("hamburger");
+        const navMenu = document.getElementById("nav-menu");
+
+        hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("open");2
+        });
         let img = document.getElementById('header_icon');
         img.src = data[0].nav.header_icon;
         let element = document.getElementById('hm');
