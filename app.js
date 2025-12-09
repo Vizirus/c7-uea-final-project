@@ -28,6 +28,12 @@ async function initDataFile() {
         await fs.writeFile(DATA_FILE, JSON.stringify([]));
     }
 }
+app.get("/goals", (req, res) => {
+    res.sendFile(path.resolve('page_code/html/goals.html'), (err)=>{
+    if (err)
+        console.log(err);
+    });
+});
 app.get("/form", (req, res) => {
     res.sendFile(path.resolve('page_code/html/form.html'), (err)=>{
     if (err)
