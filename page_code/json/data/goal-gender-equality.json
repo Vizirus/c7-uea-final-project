@@ -1,0 +1,47 @@
+
+{
+        "nav": 
+        {
+            "header_icon": "../materials/goals/header_icon.png",
+            "ul":
+            {
+                "hm": "Home",
+                "gl": "Goals",
+                "jt": "Join our Team!",
+                "at": "About our team"
+            }
+        },
+    
+       
+
+
+
+{
+    "goalTitle": "Achieve gender equality and empower all women and girls",
+    "description": "Gender equality is not only a fundamental human right, but a necessary foundation for a peaceful, prosperous and sustainable world. There has been progress over the last decades, but the world is not on track to achieve gender equality by 2030.",
+    "keyFacts": ["Nearly one in five young women aged 20–24 (19%) were married or in a union before turning 18.",
+    "Globally, over 230 million girls and women have undergone female genital mutilation.",
+    "In nearly 80 per cent of countries with data, fewer than half of women have ownership or secure rights to agricultural land, which are vital for empowering rural women and strengthening agrifood systems. "
+    ]
+
+},
+
+
+    "footer":
+        {
+            "nc": {
+                "text": "Norwich council",
+                "link": "https://www.norwich.gov.uk/"
+            },
+            "un": {
+                "text": "United Nation goals",
+                "link": "https://sdgs.un.org/goals"
+            },
+            "em": {
+                "text": "Send us an email!",
+                "link": "mailto:example@example.com"
+            }
+        }
+    }
+
+

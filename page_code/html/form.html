@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <meta charset="UTF -8">
+        <meta name=" author" content="Intisar Adekanmbi">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <title id="page-title"></title>
+        <script src="../js/content.js"></script>
+        <script src="../js/form.js"></script>
+    </head>
+    
+    <body>
+        <header>
+            <img id="header_icon" alt="header_icon">
+        
+            <nav>
+                <button class="hamburger" id="hamburger">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+
+                <div class="nav-menu" id="nav-menu">
+                    <ul class="menu">
+                        <li><a id="hm" href="../index.html"></a></li>
+                        <li><a id="gl" href="../html/goals.html"></a></li>
+                        <li><a id="jt" class="active" href="../html/form.html"></a></li>
+                        <li><a id="at" href="../html/about.html"></a></li>
+                    </ul>
+                </div>           
+            </nav>
+        </header>
+    </body>
+
+    
+
+    <main class="main-content">
+        <section class="speech-section">
+            <h1 id="main-title"></h1>
+            <p  id="subtitle" class ="speech-subtitle"></p>
+
+        </section>
+
+        <h3 id="form-title"></h3>
+
+       <section class="form-section">
+            <form id="signupForm" method="POST">
+                <fieldset>
+
+                    <label for="firstName" id="firstName-label"></label>
+                    <input type="text" id="firstName" name="firstName" required>
+
+                    <label for="lastName" id="lastName-label"></label>
+                    <input type="text" id="lastName" name="lastName" required>
+
+                    <label for="email" id="email-label"></label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="Comments" id="comments-label"></label>
+                    <textarea id="comments" name="comments" ></textarea>
+
+                    <button type="submit" id="submit-button"></button>
+
+
+                    <p id="confirmComments"></p>
+                </fieldset>
+            </form>
+       </section>
+
+       <output id="message"></output>
+       
+       
+    </main>
+    
+                
+   <footer>
+        <h5><a id="nc"></a></h5>
+        <h5><a id="un"></a></h5>
+        <h5><a id="em"></a></h5>
+    </footer>
+</html>
