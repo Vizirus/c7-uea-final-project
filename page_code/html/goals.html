@@ -4,43 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/goals.js" defer></script>
     <title>Document</title>
 </head>
 <body>
     <header>
-        <img src="../materials/goals/header_icon.png" alt="header_icon">
+        <img id="header_icon" alt="header_icon">
+        
         <nav>
-            <ul class="menu">
-                <li><a href="../index.html">Home</a></li>
-                <li><a class="active" href="../html/goals.html">Goals</a></li>
-                <li><a href="../html/join.html">Join our team!</a></li>
-                <li><a href="../html/about.html">About our team</a></li>
-            </ul>
+            <button class="hamburger" id="hamburger">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="menu">
+                    <li><a id="hm" href="../index.html"></a></li>
+                    <li><a id="gl" class="active" href="../html/goals.html"></a></li>
+                    <li><a id="jt" href="../html/join.html"></a></li>
+                    <li><a id="at" href="../html/about.html"></a></li>
+                </ul>
+            </div>           
         </nav>
     </header>
     <main>
         <section>
-            <article class="climate">
-                <h2 class="article_header">Climate action</h2>
-                <img class="article_icon" src="../materials/goals/climate_action.png" alt="climate">
-                <p class="article_p">Why we act now before it`s irreversible? </p> 
-            </article>
-            <article class="education">
-                <h2 class="article_header">Quality of education</h2>
-                <img class="article_icon" src="../materials/goals/education.png" alt="education">
-                <p class="article_p">Good education - key to success. And everyone should have access to it.</p> 
-            </article>
-            <article class="equality">
-                <h2 class="article_header">Gender equality</h2>
-                <img class="article_icon" src="../materials/goals/equality.png" alt="equality">
-                <p class="article_p">Fairness, Respect, Equality for all </p> 
-            </article>
+            <article class="climate"></article>
+            <article class="education"></article>
+            <article class="equality"></article>
         </section>
     </main>
     <footer>
-        <h5>Norwich council</h5>
-        <h5>United Nation goals</h5>
-        <h5>Send us an email!</h5>
+        <h5><a id="nc"></a></h5>
+        <h5><a id="un"></a></h5>
+        <h5><a id="em"></a></h5>
     </footer>
 </body>
 </html>
